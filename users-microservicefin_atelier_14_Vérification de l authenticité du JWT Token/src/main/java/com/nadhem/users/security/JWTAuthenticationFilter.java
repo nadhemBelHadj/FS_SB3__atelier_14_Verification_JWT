@@ -71,7 +71,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 		
 		response.addHeader("Authorization", jwt);			
 		
-		 chain.doFilter(request, response);
+		// chain.doFilter(request, response);
 		
 	}
 	
